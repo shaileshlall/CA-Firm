@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body stylesheet-----------> */
+
+body {
+  background-color: #56595c;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Header Start Here-----------------> */
+
+.header-fixed {
+  position: fixed;
+  width: 100%;
+}
+
+/* nav_bar-1 stylesheet--------------> */
+
+.nav_bar-1 {   
+  display: flex;   
+  align-items: center;  
+  background-color: pink;   
+  height: 30px;  
+  color: black;   
+  font-size: 15px;
+  }
+
+
+  .nav_bar-1 {
+    display: table; 
+    height: 50px;
+    position: relative;
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav_bar-1:after { background-color: rgba(0, 0, 0, 0.05); bottom: 0; content: ""; left: 0; height: 1px; position: absolute; width: 100%; }
+.nav_bar-1:before {content: ""; left: 0; height: 100%; position: absolute; top: 0; width: 100%; }
+.nav_bar-1:before {background-color: #08142b; opacity: 0.75;}
+.nav_bar-1 .container {position:relative;}
+.nav_bar-1 .container > div{display: table;}
+.nav_bar-1 .top-bar-left{float: left;}
+.nav_bar-1 .top-bar-right {float:right;}
+.nav_bar-1 .widget_anpstext .fa{padding:0 10px;color: #0cacee;}
+.nav_bar-1 .widget-container {display: table-cell; vertical-align: middle;}
+.nav_bar-1 .container, .top-bar .widget-container, .top-bar .container > div{height: 50px;}
+.nav_bar-1 .top-bar-right > div:last-child > .social, .top-bar .top-bar-right > div:last-child > .socialize {margin-right: -12px !important; margin-left:15px;}
+.nav_bar-1 .socialize li, .top-bar .social li {display: inline-block; font-size: inherit;}
+.nav_bar-1 .socialize a, .top-bar .social a {display: inline-block; margin: 0 2px;  padding: 0 2px;color: #0cacee;}
+
+
+/* nav_bar-2 stylesheet-----------> */
+
+.nav_bar-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 60px;
+}
+
+.nav_bar-2 ul {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+  margin-left: 80px;
+  column-gap: 15px;
+}
+
+
+.nav_bar-2 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.nav_bar-2 i {
+  margin-right: 6px;
+}
+
+.nav_bar-2 ul li a:hover {
+  color: blue;
+}
+
+/* arrow stylesheet for service & GST link---------------> */
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Submenu-1 stylesheet-----------> */
+/*Nav_bar-2 ul li Hover for dropdown*/
+
+.sub_menu-1 {
+  display: none;
+  font-size: 10px;
+}
+
+.nav_bar-2 ul li:hover .sub_menu-1 {
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.nav_bar-2 ul li:hover .sub_menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.nav_bar-2 ul li:hover .sub_menu-1 ul li {
+  width: 180px;
+  padding: 8px;
+  border-bottom: 1px dotted black;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.fa-angle-right {
+  float: right;
+}
+
+/* sub_menu-2 stylesheet----------------> */
+/*Nav_bar-2 inside dropdown Hover for dropleft*/
+
+.sub_menu-2 {
+  display: none;
+}
+
+.hover-me:hover .sub_menu-2 {
+  position: absolute;
+  display: block;
+  margin-top: -28px;
+  margin-left: 198px;
+  background-color: white;
+}
+
+/* Header End XXXXXXXXX----------------> */
